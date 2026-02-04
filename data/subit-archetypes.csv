@@ -1,0 +1,72 @@
+code,group,name,essence
+S00,1,Point,Singular origin; minimal unit
+S01,1,Line,Direction; extension; connection
+S02,1,Surface,Boundary; interface
+S03,1,Volume,Space; container
+S04,1,Structure,Framework; organization
+S05,1,Motion,Change of position
+S06,1,State,Condition; mode
+S07,1,Material,Substance; physicality
+
+S08,2,Seed,Potential; beginning
+S09,2,Growth,Expansion; development
+S10,2,Organ,Functional component
+S11,2,Earth,Ground; support
+S12,2,Fruit,Result; value
+S13,2,Body,Physical form
+S14,2,System,Interconnected whole
+S15,2,Species,Type; category
+
+S16,3,Initiation,Start; activation
+S17,3,Acceleration,Increase in speed
+S18,3,Division,Splitting; segmentation
+S19,3,Aggregation,Gathering; unification
+S20,3,Interaction,Exchange; contact
+S21,3,Linear Motion,Direct movement
+S22,3,Cycle,Repetition; return
+S23,3,Multiplicity,Parallel processes
+
+S24,4,Light,Visibility; revelation
+S25,4,Shadow,Concealment; obscurity
+S26,4,Softness,Smoothness; low resistance
+S27,4,Density,Solidity; resistance
+S28,4,Warmth,Activation; stimulation
+S29,4,Cold,Clarity; slowing
+S30,4,Saturation,Intensity; richness
+S31,4,Texture,Microstructure; detail
+
+S32,5,Neutral,Baseline; non-distortion
+S33,5,Green,Balance; restoration
+S34,5,Blue-Green,Depth; distance
+S35,5,Brown,Grounding; materiality
+S36,5,Blue,Structure; intellect
+S37,5,Purple,Integration; intuition
+S38,5,Yellow,Brightness; stimulation
+S39,5,Orange,Warmth; engagement
+
+S40,6,Joy,Uplift; expansion
+S41,6,Energy,Drive; activation
+S42,6,Calm,Equilibrium; stabilization
+S43,6,Tension,Stress; mobilization
+S44,6,Strength,Will; resilience
+S45,6,Vulnerability,Openness; sensitivity
+S46,6,Conflict,Opposition; friction
+S47,6,Passion,Intensity; desire
+
+S48,7,Care,Support; protection
+S49,7,Authority,Leadership; direction
+S50,7,Community,Collective; group
+S51,7,Individual,Autonomy; self-expression
+S52,7,Communication,Information exchange
+S53,7,Symbol,Representation; compression
+S54,7,Institution,Formal structure; order
+S55,7,Role,Function; expected behavior
+
+S56,8,Order,Structure; organization
+S57,8,Chaos,Turbulence; disruption
+S58,8,Transition,Change of state
+S59,8,Boundary,Limit; separation
+S60,8,Emptiness,Absence; clearing
+S61,8,Fullness,Completion; totality
+S62,8,Model,Abstraction; representation
+S63,8,Synthesis,Integration; unification
