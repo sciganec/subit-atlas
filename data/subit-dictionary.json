@@ -1,0 +1,397 @@
+{
+  "version": "1.0",
+  "description": "Canonical SUBIT‑64 semantic dictionary. Each entry defines one of the 64 archetypes with minimal machine‑readable fields.",
+  "archetypes": [
+    {
+      "code": "S00",
+      "name": "Point",
+      "group": 1,
+      "essence": "Singular origin, minimal unit"
+    },
+    {
+      "code": "S01",
+      "name": "Line",
+      "group": 1,
+      "essence": "Direction, extension, connection"
+    },
+    {
+      "code": "S02",
+      "name": "Surface",
+      "group": 1,
+      "essence": "Boundary, interface"
+    },
+    {
+      "code": "S03",
+      "name": "Volume",
+      "group": 1,
+      "essence": "Space, container"
+    },
+    {
+      "code": "S04",
+      "name": "Structure",
+      "group": 1,
+      "essence": "Framework, organization"
+    },
+    {
+      "code": "S05",
+      "name": "Motion",
+      "group": 1,
+      "essence": "Change of position"
+    },
+    {
+      "code": "S06",
+      "name": "State",
+      "group": 1,
+      "essence": "Condition, mode"
+    },
+    {
+      "code": "S07",
+      "name": "Material",
+      "group": 1,
+      "essence": "Substance, physicality"
+    },
+
+    {
+      "code": "S08",
+      "name": "Seed",
+      "group": 2,
+      "essence": "Potential, beginning"
+    },
+    {
+      "code": "S09",
+      "name": "Growth",
+      "group": 2,
+      "essence": "Expansion, development"
+    },
+    {
+      "code": "S10",
+      "name": "Organ",
+      "group": 2,
+      "essence": "Functional component"
+    },
+    {
+      "code": "S11",
+      "name": "Earth",
+      "group": 2,
+      "essence": "Ground, support"
+    },
+    {
+      "code": "S12",
+      "name": "Fruit",
+      "group": 2,
+      "essence": "Result, value"
+    },
+    {
+      "code": "S13",
+      "name": "Body",
+      "group": 2,
+      "essence": "Physical form"
+    },
+    {
+      "code": "S14",
+      "name": "System",
+      "group": 2,
+      "essence": "Interconnected whole"
+    },
+    {
+      "code": "S15",
+      "name": "Species",
+      "group": 2,
+      "essence": "Type, category"
+    },
+
+    {
+      "code": "S16",
+      "name": "Initiation",
+      "group": 3,
+      "essence": "Start, activation"
+    },
+    {
+      "code": "S17",
+      "name": "Acceleration",
+      "group": 3,
+      "essence": "Increase in speed"
+    },
+    {
+      "code": "S18",
+      "name": "Division",
+      "group": 3,
+      "essence": "Splitting, segmentation"
+    },
+    {
+      "code": "S19",
+      "name": "Aggregation",
+      "group": 3,
+      "essence": "Gathering, unification"
+    },
+    {
+      "code": "S20",
+      "name": "Interaction",
+      "group": 3,
+      "essence": "Exchange, contact"
+    },
+    {
+      "code": "S21",
+      "name": "Linear Motion",
+      "group": 3,
+      "essence": "Direct movement"
+    },
+    {
+      "code": "S22",
+      "name": "Cycle",
+      "group": 3,
+      "essence": "Repetition, return"
+    },
+    {
+      "code": "S23",
+      "name": "Multiplicity",
+      "group": 3,
+      "essence": "Parallel processes"
+    },
+
+    {
+      "code": "S24",
+      "name": "Light",
+      "group": 4,
+      "essence": "Visibility, revelation"
+    },
+    {
+      "code": "S25",
+      "name": "Shadow",
+      "group": 4,
+      "essence": "Concealment, obscurity"
+    },
+    {
+      "code": "S26",
+      "name": "Softness",
+      "group": 4,
+      "essence": "Smoothness, low resistance"
+    },
+    {
+      "code": "S27",
+      "name": "Density",
+      "group": 4,
+      "essence": "Solidity, resistance"
+    },
+    {
+      "code": "S28",
+      "name": "Warmth",
+      "group": 4,
+      "essence": "Activation, stimulation"
+    },
+    {
+      "code": "S29",
+      "name": "Cold",
+      "group": 4,
+      "essence": "Clarity, slowing"
+    },
+    {
+      "code": "S30",
+      "name": "Saturation",
+      "group": 4,
+      "essence": "Intensity, richness"
+    },
+    {
+      "code": "S31",
+      "name": "Texture",
+      "group": 4,
+      "essence": "Microstructure, detail"
+    },
+
+    {
+      "code": "S32",
+      "name": "Neutral",
+      "group": 5,
+      "essence": "Baseline, non-distortion"
+    },
+    {
+      "code": "S33",
+      "name": "Green",
+      "group": 5,
+      "essence": "Balance, restoration"
+    },
+    {
+      "code": "S34",
+      "name": "Blue-Green",
+      "group": 5,
+      "essence": "Depth, distance"
+    },
+    {
+      "code": "S35",
+      "name": "Brown",
+      "group": 5,
+      "essence": "Grounding, materiality"
+    },
+    {
+      "code": "S36",
+      "name": "Blue",
+      "group": 5,
+      "essence": "Structure, intellect"
+    },
+    {
+      "code": "S37",
+      "name": "Purple",
+      "group": 5,
+      "essence": "Integration, intuition"
+    },
+    {
+      "code": "S38",
+      "name": "Yellow",
+      "group": 5,
+      "essence": "Brightness, stimulation"
+    },
+    {
+      "code": "S39",
+      "name": "Orange",
+      "group": 5,
+      "essence": "Warmth, engagement"
+    },
+
+    {
+      "code": "S40",
+      "name": "Joy",
+      "group": 6,
+      "essence": "Uplift, expansion"
+    },
+    {
+      "code": "S41",
+      "name": "Energy",
+      "group": 6,
+      "essence": "Drive, activation"
+    },
+    {
+      "code": "S42",
+      "name": "Calm",
+      "group": 6,
+      "essence": "Equilibrium, stabilization"
+    },
+    {
+      "code": "S43",
+      "name": "Tension",
+      "group": 6,
+      "essence": "Stress, mobilization"
+    },
+    {
+      "code": "S44",
+      "name": "Strength",
+      "group": 6,
+      "essence": "Will, resilience"
+    },
+    {
+      "code": "S45",
+      "name": "Vulnerability",
+      "group": 6,
+      "essence": "Openness, sensitivity"
+    },
+    {
+      "code": "S46",
+      "name": "Conflict",
+      "group": 6,
+      "essence": "Opposition, friction"
+    },
+    {
+      "code": "S47",
+      "name": "Passion",
+      "group": 6,
+      "essence": "Intensity, desire"
+    },
+
+    {
+      "code": "S48",
+      "name": "Care",
+      "group": 7,
+      "essence": "Support, protection"
+    },
+    {
+      "code": "S49",
+      "name": "Authority",
+      "group": 7,
+      "essence": "Leadership, direction"
+    },
+    {
+      "code": "S50",
+      "name": "Community",
+      "group": 7,
+      "essence": "Collective, group"
+    },
+    {
+      "code": "S51",
+      "name": "Individual",
+      "group": 7,
+      "essence": "Autonomy, self-expression"
+    },
+    {
+      "code": "S52",
+      "name": "Communication",
+      "group": 7,
+      "essence": "Information exchange"
+    },
+    {
+      "code": "S53",
+      "name": "Symbol",
+      "group": 7,
+      "essence": "Representation, compression"
+    },
+    {
+      "code": "S54",
+      "name": "Institution",
+      "group": 7,
+      "essence": "Formal structure, order"
+    },
+    {
+      "code": "S55",
+      "name": "Role",
+      "group": 7,
+      "essence": "Function, expected behavior"
+    },
+
+    {
+      "code": "S56",
+      "name": "Order",
+      "group": 8,
+      "essence": "Structure, organization"
+    },
+    {
+      "code": "S57",
+      "name": "Chaos",
+      "group": 8,
+      "essence": "Turbulence, disruption"
+    },
+    {
+      "code": "S58",
+      "name": "Transition",
+      "group": 8,
+      "essence": "Change of state"
+    },
+    {
+      "code": "S59",
+      "name": "Boundary",
+      "group": 8,
+      "essence": "Limit, separation"
+    },
+    {
+      "code": "S60",
+      "name": "Emptiness",
+      "group": 8,
+      "essence": "Absence, clearing"
+    },
+    {
+      "code": "S61",
+      "name": "Fullness",
+      "group": 8,
+      "essence": "Completion, totality"
+    },
+    {
+      "code": "S62",
+      "name": "Model",
+      "group": 8,
+      "essence": "Abstraction, representation"
+    },
+    {
+      "code": "S63",
+      "name": "Synthesis",
+      "group": 8,
+      "essence": "Integration, unification"
+    }
+  ]
+}
