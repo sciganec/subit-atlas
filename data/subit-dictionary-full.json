@@ -1,0 +1,457 @@
+{
+  "S00": {
+    "en_name": "Point",
+    "mask": "Fixes a point, establishes a beginning.",
+    "shadow": "Gets stuck in zero-state.",
+    "optimum": "Provides a clear anchor for initiation.",
+    "pathology": "Becomes a dead, frozen zone."
+  },
+  "S01": {
+    "en_name": "Line",
+    "mask": "Creates direction, connects points.",
+    "shadow": "Becomes overly linear.",
+    "optimum": "Provides a clear vector of movement.",
+    "pathology": "Ignores complexity and nuance."
+  },
+  "S02": {
+    "en_name": "Surface",
+    "mask": "Forms a boundary and interface.",
+    "shadow": "Turns into a barrier.",
+    "optimum": "Enables interaction without merging.",
+    "pathology": "Over-isolates and divides."
+  },
+  "S03": {
+    "en_name": "Volume",
+    "mask": "Creates space and containment.",
+    "shadow": "Expands without structure.",
+    "optimum": "Provides capacity and potential.",
+    "pathology": "Absorbs and dissolves forms."
+  },
+  "S04": {
+    "en_name": "Structure",
+    "mask": "Organizes form and order.",
+    "shadow": "Becomes rigid.",
+    "optimum": "Provides stability and clarity.",
+    "pathology": "Turns into dogma."
+  },
+  "S05": {
+    "en_name": "Motion",
+    "mask": "Initiates movement.",
+    "shadow": "Moves for the sake of movement.",
+    "optimum": "Creates dynamic flow.",
+    "pathology": "Dissipates energy."
+  },
+  "S06": {
+    "en_name": "State",
+    "mask": "Fixes a condition.",
+    "shadow": "Becomes stagnant.",
+    "optimum": "Provides stability.",
+    "pathology": "Blocks development."
+  },
+  "S07": {
+    "en_name": "Material",
+    "mask": "Gives physical substance.",
+    "shadow": "Becomes inert.",
+    "optimum": "Provides weight and reality.",
+    "pathology": "Turns into burden."
+  },
+
+  "S08": {
+    "en_name": "Seed",
+    "mask": "Carries potential.",
+    "shadow": "Remains unrealized.",
+    "optimum": "Initiates growth.",
+    "pathology": "Decays without activation."
+  },
+  "S09": {
+    "en_name": "Growth",
+    "mask": "Expands and develops.",
+    "shadow": "Overgrows chaotically.",
+    "optimum": "Creates development.",
+    "pathology": "Consumes resources endlessly."
+  },
+  "S10": {
+    "en_name": "Organ",
+    "mask": "Performs a function.",
+    "shadow": "Becomes narrow and inflexible.",
+    "optimum": "Supports the system.",
+    "pathology": "Fails under pressure."
+  },
+  "S11": {
+    "en_name": "Earth",
+    "mask": "Provides ground and support.",
+    "shadow": "Becomes swamp-like.",
+    "optimum": "Stabilizes processes.",
+    "pathology": "Pulls everything downward."
+  },
+  "S12": {
+    "en_name": "Fruit",
+    "mask": "Produces results.",
+    "shadow": "Becomes an obsession.",
+    "optimum": "Provides value.",
+    "pathology": "Creates dependency on outcomes."
+  },
+  "S13": {
+    "en_name": "Body",
+    "mask": "Forms a physical whole.",
+    "shadow": "Becomes heavy.",
+    "optimum": "Provides integrity.",
+    "pathology": "Consumes energy."
+  },
+  "S14": {
+    "en_name": "System",
+    "mask": "Organizes interconnections.",
+    "shadow": "Overcomplicates itself.",
+    "optimum": "Creates a living structure.",
+    "pathology": "Gets tangled in its own logic."
+  },
+  "S15": {
+    "en_name": "Species",
+    "mask": "Defines type and category.",
+    "shadow": "Becomes a classification trap.",
+    "optimum": "Provides clarity of kind.",
+    "pathology": "Turns into stigma."
+  },
+
+  "S16": {
+    "en_name": "Initiation",
+    "mask": "Starts a process.",
+    "shadow": "Begins without preparation.",
+    "optimum": "Provides impulse.",
+    "pathology": "Explodes and collapses."
+  },
+  "S17": {
+    "en_name": "Acceleration",
+    "mask": "Increases speed.",
+    "shadow": "Loses control.",
+    "optimum": "Amplifies dynamics.",
+    "pathology": "Overheats the system."
+  },
+  "S18": {
+    "en_name": "Division",
+    "mask": "Splits and segments.",
+    "shadow": "Breaks unity.",
+    "optimum": "Creates structure.",
+    "pathology": "Fragments into chaos."
+  },
+  "S19": {
+    "en_name": "Aggregation",
+    "mask": "Unifies elements.",
+    "shadow": "Absorbs individuality.",
+    "optimum": "Creates coherence.",
+    "pathology": "Turns into massification."
+  },
+  "S20": {
+    "en_name": "Interaction",
+    "mask": "Engages in exchange.",
+    "shadow": "Generates conflict unnecessarily.",
+    "optimum": "Enables communication.",
+    "pathology": "Dissolves into noise."
+  },
+  "S21": {
+    "en_name": "Linear Motion",
+    "mask": "Moves directly.",
+    "shadow": "Ignores obstacles.",
+    "optimum": "Provides speed.",
+    "pathology": "Breaks against reality."
+  },
+  "S22": {
+    "en_name": "Cycle",
+    "mask": "Repeats patterns.",
+    "shadow": "Loops endlessly.",
+    "optimum": "Creates rhythm.",
+    "pathology": "Becomes a trap."
+  },
+  "S23": {
+    "en_name": "Multiplicity",
+    "mask": "Runs parallel processes.",
+    "shadow": "Scatters attention.",
+    "optimum": "Increases productivity.",
+    "pathology": "Dissolves into chaotic streams."
+  },
+
+  "S24": {
+    "en_name": "Light",
+    "mask": "Reveals and illuminates.",
+    "shadow": "Blinds.",
+    "optimum": "Makes things visible.",
+    "pathology": "Burns out perception."
+  },
+  "S25": {
+    "en_name": "Shadow",
+    "mask": "Conceals and obscures.",
+    "shadow": "Disorients.",
+    "optimum": "Adds depth.",
+    "pathology": "Creates fear."
+  },
+  "S26": {
+    "en_name": "Softness",
+    "mask": "Reduces resistance.",
+    "shadow": "Blurs form.",
+    "optimum": "Creates comfort.",
+    "pathology": "Dissolves boundaries."
+  },
+  "S27": {
+    "en_name": "Density",
+    "mask": "Concentrates and solidifies.",
+    "shadow": "Becomes impenetrable.",
+    "optimum": "Provides strength.",
+    "pathology": "Crushes and blocks."
+  },
+  "S28": {
+    "en_name": "Warmth",
+    "mask": "Activates and energizes.",
+    "shadow": "Overheats.",
+    "optimum": "Creates comfort and vitality.",
+    "pathology": "Burns out."
+  },
+  "S29": {
+    "en_name": "Cold",
+    "mask": "Cools and clarifies.",
+    "shadow": "Freezes.",
+    "optimum": "Provides clarity.",
+    "pathology": "Kills movement."
+  },
+  "S30": {
+    "en_name": "Saturation",
+    "mask": "Intensifies experience.",
+    "shadow": "Overloads.",
+    "optimum": "Adds richness.",
+    "pathology": "Becomes overwhelming."
+  },
+  "S31": {
+    "en_name": "Texture",
+    "mask": "Adds detail.",
+    "shadow": "Gets lost in minutiae.",
+    "optimum": "Creates nuance.",
+    "pathology": "Breaks into noise."
+  },
+
+  "S32": {
+    "en_name": "Neutral",
+    "mask": "Neutralizes influence.",
+    "shadow": "Becomes indifferent.",
+    "optimum": "Provides a clean field.",
+    "pathology": "Extinguishes vitality."
+  },
+  "S33": {
+    "en_name": "Green",
+    "mask": "Restores balance.",
+    "shadow": "Becomes inert.",
+    "optimum": "Harmonizes.",
+    "pathology": "Stagnates in equilibrium."
+  },
+  "S34": {
+    "en_name": "Blue-Green",
+    "mask": "Creates depth.",
+    "shadow": "Distances excessively.",
+    "optimum": "Provides perspective.",
+    "pathology": "Disconnects from reality."
+  },
+  "S35": {
+    "en_name": "Brown",
+    "mask": "Grounds and stabilizes.",
+    "shadow": "Weighs down.",
+    "optimum": "Provides solidity.",
+    "pathology": "Becomes oppressive."
+  },
+  "S36": {
+    "en_name": "Blue",
+    "mask": "Structures thought.",
+    "shadow": "Becomes cold and rigid.",
+    "optimum": "Provides clarity.",
+    "pathology": "Turns into rational dogmatism."
+  },
+  "S37": {
+    "en_name": "Purple",
+    "mask": "Integrates elements.",
+    "shadow": "Blurs distinctions.",
+    "optimum": "Creates wholeness.",
+    "pathology": "Loses form."
+  },
+  "S38": {
+    "en_name": "Yellow",
+    "mask": "Activates attention.",
+    "shadow": "Overstimulates.",
+    "optimum": "Awakens perception.",
+    "pathology": "Exhausts the system."
+  },
+  "S39": {
+    "en_name": "Orange",
+    "mask": "Engages and attracts.",
+    "shadow": "Becomes intrusive.",
+    "optimum": "Creates connection.",
+    "pathology": "Manipulates."
+  },
+
+  "S40": {
+    "en_name": "Joy",
+    "mask": "Elevates emotion.",
+    "shadow": "Turns into euphoria.",
+    "optimum": "Provides uplift.",
+    "pathology": "Loses control."
+  },
+  "S41": {
+    "en_name": "Energy",
+    "mask": "Activates will.",
+    "shadow": "Overheats.",
+    "optimum": "Provides drive.",
+    "pathology": "Burns out the system."
+  },
+  "S42": {
+    "en_name": "Calm",
+    "mask": "Stabilizes emotion.",
+    "shadow": "Dulls experience.",
+    "optimum": "Provides equilibrium.",
+    "pathology": "Suppresses vitality."
+  },
+  "S43": {
+    "en_name": "Tension",
+    "mask": "Creates pressure.",
+    "shadow": "Tears things apart.",
+    "optimum": "Mobilizes action.",
+    "pathology": "Overloads the psyche."
+  },
+  "S44": {
+    "en_name": "Strength",
+    "mask": "Holds power.",
+    "shadow": "Becomes harsh.",
+    "optimum": "Provides resilience.",
+    "pathology": "Crushes others."
+  },
+  "S45": {
+    "en_name": "Vulnerability",
+    "mask": "Opens inwardly.",
+    "shadow": "Becomes defenseless.",
+    "optimum": "Provides sensitivity.",
+    "pathology": "Dissolves into pain."
+  },
+  "S46": {
+    "en_name": "Conflict",
+    "mask": "Opposes and resists.",
+    "shadow": "Creates unnecessary fights.",
+    "optimum": "Protects boundaries.",
+    "pathology": "Destroys relationships."
+  },
+  "S47": {
+    "en_name": "Passion",
+    "mask": "Burns with desire.",
+    "shadow": "Consumes itself.",
+    "optimum": "Provides intensity.",
+    "pathology": "Devours everything around."
+  },
+
+  "S48": {
+    "en_name": "Care",
+    "mask": "Supports and protects.",
+    "shadow": "Becomes controlling.",
+    "optimum": "Nourishes others.",
+    "pathology": "Smothers with care."
+  },
+  "S49": {
+    "en_name": "Authority",
+    "mask": "Leads and directs.",
+    "shadow": "Dominates.",
+    "optimum": "Provides guidance.",
+    "pathology": "Turns into tyranny."
+  },
+  "S50": {
+    "en_name": "Community",
+    "mask": "Unites the group.",
+    "shadow": "Erases individuality.",
+    "optimum": "Creates belonging.",
+    "pathology": "Becomes collective pressure."
+  },
+  "S51": {
+    "en_name": "Individual",
+    "mask": "Expresses self.",
+    "shadow": "Becomes self-centered.",
+    "optimum": "Provides autonomy.",
+    "pathology": "Breaks connections."
+  },
+  "S52": {
+    "en_name": "Communication",
+    "mask": "Transmits information.",
+    "shadow": "Generates noise.",
+    "optimum": "Enables connection.",
+    "pathology": "Manipulates messages."
+  },
+  "S53": {
+    "en_name": "Symbol",
+    "mask": "Represents meaning.",
+    "shadow": "Distorts significance.",
+    "optimum": "Compresses information.",
+    "pathology": "Becomes an empty sign."
+  },
+  "S54": {
+    "en_name": "Institution",
+    "mask": "Organizes structures.",
+    "shadow": "Bureaucratizes.",
+    "optimum": "Creates order.",
+    "pathology": "Consumes living processes."
+  },
+  "S55": {
+    "en_name": "Role",
+    "mask": "Performs a function.",
+    "shadow": "Becomes a mask.",
+    "optimum": "Provides clarity of function.",
+    "pathology": "Suppresses the true self."
+  },
+
+  "S56": {
+    "en_name": "Order",
+    "mask": "Creates structure and clarity.",
+    "shadow": "Controls excessively.",
+    "optimum": "Provides systemic coherence.",
+    "pathology": "Becomes totalitarian order."
+  },
+  "S57": {
+    "en_name": "Chaos",
+    "mask": "Breaks structures.",
+    "shadow": "Destroys meaninglessly.",
+    "optimum": "Renews systems.",
+    "pathology": "Collapses everything."
+  },
+  "S58": {
+    "en_name": "Transition",
+    "mask": "Changes state.",
+    "shadow": "Destabilizes.",
+    "optimum": "Enables evolution.",
+    "pathology": "Dissolves forms."
+  },
+  "S59": {
+    "en_name": "Boundary",
+    "mask": "Sets limits.",
+    "shadow": "Cuts off connection.",
+    "optimum": "Protects structure.",
+    "pathology": "Isolates completely."
+  },
+  "S60": {
+    "en_name": "Emptiness",
+    "mask": "Clears space.",
+    "shadow": "Creates void.",
+    "optimum": "Allows new beginnings.",
+    "pathology": "Leaves desolation."
+  },
+  "S61": {
+    "en_name": "Fullness",
+    "mask": "Fills and completes.",
+    "shadow": "Overfills.",
+    "optimum": "Provides completion.",
+    "pathology": "Smothers with excess."
+  },
+  "S62": {
+    "en_name": "Model",
+    "mask": "Abstracts and represents.",
+    "shadow": "Oversimplifies.",
+    "optimum": "Provides conceptual clarity.",
+    "pathology": "Detaches from reality."
+  },
+  "S63": {
+    "en_name": "Synthesis",
+    "mask": "Unifies elements.",
+    "shadow": "Mixes the incompatible.",
+    "optimum": "Creates integration.",
+    "pathology": "Dissolves structure."
+  }
+}
