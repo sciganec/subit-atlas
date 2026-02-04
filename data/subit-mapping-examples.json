@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "description": "Representative mapping examples for SUBIT‑64 classifier. Each entry demonstrates domain identification, axis extraction, and final archetype selection.",
+  "examples": [
+    {
+      "input": "a sharp metal tool",
+      "domain": "Matter",
+      "axes": "100101",
+      "primary": "S04",
+      "secondary": ["S27", "S07"]
+    },
+    {
+      "input": "a growing plant",
+      "domain": "Organic",
+      "axes": "110001",
+      "primary": "S09",
+      "secondary": ["S08", "S14"]
+    },
+    {
+      "input": "rapid escalation",
+      "domain": "Dynamics",
+      "axes": "011111",
+      "primary": "S17",
+      "secondary": ["S43", "S57"]
+    },
+    {
+      "input": "a repeating daily routine",
+      "domain": "Dynamics",
+      "axes": "101000",
+      "primary": "S22",
+      "secondary": ["S06"]
+    },
+    {
+      "input": "soft warm lighting",
+      "domain": "Perception",
+      "axes": "100000",
+      "primary": "S28",
+      "secondary": ["S26", "S24"]
+    },
+    {
+      "input": "cold analytical tone",
+      "domain": "Spectrum",
+      "axes": "101001",
+      "primary": "S36",
+      "secondary": ["S29"]
+    },
+    {
+      "input": "feeling overwhelmed",
+      "domain": "Psychic",
+      "axes": "010110",
+      "primary": "S45",
+      "secondary": ["S43", "S57"]
+    },
+    {
+      "input": "calm confidence",
+      "domain": "Psychic",
+      "axes": "101010",
+      "primary": "S44",
+      "secondary": ["S42"]
+    },
+    {
+      "input": "a supportive team environment",
+      "domain": "Social",
+      "axes": "011010",
+      "primary": "S50",
+      "secondary": ["S48"]
+    },
+    {
+      "input": "strict corporate hierarchy",
+      "domain": "Social",
+      "axes": "101011",
+      "primary": "S54",
+      "secondary": ["S49"]
+    },
+    {
+      "input": "a conceptual framework",
+      "domain": "Abstract",
+      "axes": "101001",
+      "primary": "S62",
+      "secondary": ["S56"]
+    },
+    {
+      "input": "a chaotic transition period",
+      "domain": "Abstract",
+      "axes": "011111",
+      "primary": "S58",
+      "secondary": ["S57"]
+    },
+    {
+      "input": "social tension rising in a group",
+      "domain": "Social+Psychic",
+      "axes": "011111",
+      "primary": "S43",
+      "secondary": ["S20", "S50", "S57"]
+    },
+    {
+      "input": "creative synthesis of ideas",
+      "domain": "Abstract",
+      "axes": "011011",
+      "primary": "S63",
+      "secondary": ["S37"]
+    },
+    {
+      "input": "conflict → negotiation → agreement",
+      "domain": "Trajectory",
+      "trajectory": ["S46", "S20", "S63"]
+    }
+  ]
+}
