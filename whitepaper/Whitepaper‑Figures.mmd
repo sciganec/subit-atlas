@@ -1,0 +1,144 @@
+```mermaid
+%% WHITEPAPER-FIGURES.mmd
+%% All core SUBIT‑64 diagrams for inclusion in the Whitepaper
+
+%% ============================
+%% FIGURE 1 — AXIS SPACE (SCHEMATIC)
+%% ============================
+graph LR
+    A0["b1: Stability / Change"]
+    A1["b2: Internal / External"]
+    A2["b3: Passive / Active"]
+    A3["b4: Singular / Distributed"]
+    A4["b5: Concrete / Abstract"]
+    A5["b6: Determinate / Indeterminate"]
+
+    A0 --- A1 --- A2 --- A3 --- A4 --- A5
+
+%% ============================
+%% FIGURE 2 — HYPERCUBE LOCAL NEIGHBORHOOD
+%% ============================
+graph TD
+    N000000["000000"]
+    N000001["000001"]
+    N000010["000010"]
+    N000100["000100"]
+    N001000["001000"]
+    N010000["010000"]
+    N100000["100000"]
+
+    N000000 --> N000001
+    N000000 --> N000010
+    N000000 --> N000100
+    N000000 --> N001000
+    N000000 --> N010000
+    N000000 --> N100000
+
+%% ============================
+%% FIGURE 3 — SEMANTIC STACK (VERTICAL)
+%% ============================
+graph TD
+    L1["L1 Matter"]
+    L2["L2 Organic"]
+    L3["L3 Dynamics"]
+    L4["L4 Perception"]
+    L5["L5 Spectrum"]
+    L6["L6 Psychic"]
+    L7["L7 Social"]
+    L8["L8 Abstract"]
+
+    L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8
+
+%% ============================
+%% FIGURE 4 — LAYER INTERACTIONS (COMPACT)
+%% ============================
+graph TD
+    M1["Matter"]
+    M2["Organic"]
+    M3["Dynamics"]
+    M4["Perception"]
+    M5["Spectrum"]
+    M6["Psychic"]
+    M7["Social"]
+    M8["Abstract"]
+
+    %% Upward
+    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8
+    %% Downward
+    M8 --> M7 --> M6 --> M5 --> M4 --> M3 --> M2 --> M1
+
+    %% Resonance
+    M3 --- M7
+    M5 --- M8
+    M2 --- M6
+
+%% ============================
+%% FIGURE 5 — AXIS–LAYER MATRIX (SCHEMATIC)
+%% ============================
+graph LR
+    subgraph Layers
+        LM1["L1"]
+        LM2["L2"]
+        LM3["L3"]
+        LM4["L4"]
+        LM5["L5"]
+        LM6["L6"]
+        LM7["L7"]
+        LM8["L8"]
+    end
+
+    subgraph Axes
+        AB1["b1"]
+        AB2["b2"]
+        AB3["b3"]
+        AB4["b4"]
+        AB5["b5"]
+        AB6["b6"]
+    end
+
+    LM1 --- AB1
+    LM1 --- AB5
+    LM1 --- AB6
+
+    LM3 --- AB1
+    LM3 --- AB2
+    LM3 --- AB3
+
+    LM5 --- AB4
+    LM5 --- AB5
+    LM5 --- AB6
+
+    LM8 --- AB1
+    LM8 --- AB4
+    LM8 --- AB5
+    LM8 --- AB6
+
+%% ============================
+%% FIGURE 6 — TRAJECTORY EXAMPLES
+%% ============================
+graph TD
+    T1["011100"]
+    T2["011000"]
+    T3["010000"]
+
+    U1["000011"]
+    U2["010111"]
+    U3["110111"]
+
+    S1["101000"]
+    S2["101100"]
+    S3["001100"]
+    S4["001000"]
+
+    subgraph Convergence
+        T1 --> T2 --> T3
+    end
+
+    subgraph Divergence
+        U1 --> U2 --> U3
+    end
+
+    subgraph Spiral
+        S1 --> S2 --> S3 --> S4
+    end
+```
