@@ -3,8 +3,7 @@
 # **SUBIT‑64 Whitepaper**
 
 Version: 1.0  
-Status: Public Release  
-Author: Slavick  
+Status: Public Release   
 Document Type: Technical Whitepaper
 
 ---
