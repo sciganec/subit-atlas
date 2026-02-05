@@ -1,46 +1,68 @@
 ---
 
-## **Figure 1 — Axis Space (Schematic)**
+## **Figure 1 — Axis Space (Extended)**
 
 ```mermaid
 graph LR
-    A0["b1"]
-    A1["b2"]
-    A2["b3"]
-    A3["b4"]
-    A4["b5"]
-    A5["b6"]
-    A0 --- A1 --- A2 --- A3 --- A4 --- A5
+
+    subgraph AXES["Six Semantic Axes"]
+        A1["b1 Stability ↔ Change"]
+        A2["b2 Internal ↔ External"]
+        A3["b3 Passive ↔ Active"]
+        A4["b4 Singular ↔ Distributed"]
+        A5["b5 Concrete ↔ Abstract"]
+        A6["b6 Determinate ↔ Indeterminate"]
+    end
+
+    A1 --- A2 --- A3 --- A4 --- A5 --- A6
+
+    style AXES fill:#f7f7f7,stroke:#999,stroke-width:1px
+    style A1 fill:#d9e8ff,stroke:#4a78c2
+    style A2 fill:#e8f4d9,stroke:#6aa84f
+    style A3 fill:#ffe6cc,stroke:#d98c2c
+    style A4 fill:#fff2cc,stroke:#c2a23a
+    style A5 fill:#f3e6ff,stroke:#8e44ad
+    style A6 fill:#fde6f2,stroke:#c2185b
 ```
 
 ---
 
-## **Figure 2 — Hypercube Local Neighborhood**
+## **Figure 2 — Hypercube Local Neighborhood (Extended)**
 
 ```mermaid
 graph TD
-    N000000["000000"]
-    N000001["000001"]
-    N000010["000010"]
-    N000100["000100"]
-    N001000["001000"]
-    N010000["010000"]
-    N100000["100000"]
 
-    N000000 --> N000001
-    N000000 --> N000010
-    N000000 --> N000100
-    N000000 --> N001000
-    N000000 --> N010000
-    N000000 --> N100000
+    N0["000000"]
+    N1["000001"]
+    N2["000010"]
+    N3["000100"]
+    N4["001000"]
+    N5["010000"]
+    N6["100000"]
+
+    N0 --> N1
+    N0 --> N2
+    N0 --> N3
+    N0 --> N4
+    N0 --> N5
+    N0 --> N6
+
+    style N0 fill:#f0f0f0,stroke:#333,stroke-width:2px
+    style N1 fill:#e6f7ff,stroke:#1b7dbf
+    style N2 fill:#e6f7ff,stroke:#1b7dbf
+    style N3 fill:#e6f7ff,stroke:#1b7dbf
+    style N4 fill:#e6f7ff,stroke:#1b7dbf
+    style N5 fill:#e6f7ff,stroke:#1b7dbf
+    style N6 fill:#e6f7ff,stroke:#1b7dbf
 ```
 
 ---
 
-## **Figure 3 — Semantic Stack (Vertical)**
+## **Figure 3 — Semantic Stack (Extended Vertical)**
 
 ```mermaid
 graph TD
+
     L1["L1 Matter"]
     L2["L2 Organic"]
     L3["L3 Dynamics"]
@@ -51,14 +73,24 @@ graph TD
     L8["L8 Abstract"]
 
     L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8
+
+    style L1 fill:#d9e8ff,stroke:#4a78c2
+    style L2 fill:#e8f4d9,stroke:#6aa84f
+    style L3 fill:#ffe6cc,stroke:#d98c2c
+    style L4 fill:#fff2cc,stroke:#c2a23a
+    style L5 fill:#f3e6ff,stroke:#8e44ad
+    style L6 fill:#fde6f2,stroke:#c2185b
+    style L7 fill:#e6f7ff,stroke:#1b7dbf
+    style L8 fill:#f0f0f0,stroke:#555
 ```
 
 ---
 
-## **Figure 4 — Layer Interactions (Compact)**
+## **Figure 4 — Layer Interactions (Extended)**
 
 ```mermaid
 graph TD
+
     M1["Matter"]
     M2["Organic"]
     M3["Dynamics"]
@@ -68,47 +100,84 @@ graph TD
     M7["Social"]
     M8["Abstract"]
 
-    M1 --> M2 --> M3 --> M4 --> M5 --> M6 --> M7 --> M8
-    M8 --> M7 --> M6 --> M5 --> M4 --> M3 --> M2 --> M1
+    %% Upward
+    M1 -->|up| M2 -->|up| M3 -->|up| M4 -->|up| M5 -->|up| M6 -->|up| M7 -->|up| M8
 
-    M3 --- M7
-    M5 --- M8
-    M2 --- M6
+    %% Downward
+    M8 -->|down| M7 -->|down| M6 -->|down| M5 -->|down| M4 -->|down| M3 -->|down| M2 -->|down| M1
+
+    %% Resonance
+    M3 ---|resonance| M7
+    M5 ---|resonance| M8
+    M2 ---|resonance| M6
+
+    style M1 fill:#d9e8ff,stroke:#4a78c2
+    style M2 fill:#e8f4d9,stroke:#6aa84f
+    style M3 fill:#ffe6cc,stroke:#d98c2c
+    style M4 fill:#fff2cc,stroke:#c2a23a
+    style M5 fill:#f3e6ff,stroke:#8e44ad
+    style M6 fill:#fde6f2,stroke:#c2185b
+    style M7 fill:#e6f7ff,stroke:#1b7dbf
+    style M8 fill:#f0f0f0,stroke:#555
 ```
 
 ---
 
-## **Figure 5 — Axis–Layer Matrix (Schematic)**
+## **Figure 5 — Axis–Layer Matrix (Extended)**
 
 ```mermaid
 graph LR
-    L1["L1"] --- B1["b1"]
-    L1 --- B5["b5"]
-    L1 --- B6["b6"]
 
-    L3["L3"] --- B1
-    L3 --- B2["b2"]
-    L3 --- B3["b3"]
+    subgraph Layers
+        L1["L1"]
+        L3["L3"]
+        L5["L5"]
+        L8["L8"]
+    end
 
-    L5["L5"] --- B4["b4"]
+    subgraph Axes
+        B1["b1"]
+        B2["b2"]
+        B3["b3"]
+        B4["b4"]
+        B5["b5"]
+        B6["b6"]
+    end
+
+    L1 --- B1
+    L1 --- B5
+    L1 --- B6
+
+    L3 --- B1
+    L3 --- B2
+    L3 --- B3
+
+    L5 --- B4
     L5 --- B5
     L5 --- B6
 
-    L8["L8"] --- B1
+    L8 --- B1
     L8 --- B4
     L8 --- B5
     L8 --- B6
+
+    style Layers fill:#fafafa,stroke:#aaa
+    style Axes fill:#fafafa,stroke:#aaa
 ```
 
 ---
 
-## **Figure 6 — Trajectory Examples**
+## **Figure 6 — Trajectories (Extended)**
 
 ### **Convergence**
 
 ```mermaid
 graph TD
     T1["011100"] --> T2["011000"] --> T3["010000"]
+
+    style T1 fill:#ffe6cc,stroke:#d98c2c
+    style T2 fill:#fff2cc,stroke:#c2a23a
+    style T3 fill:#d9e8ff,stroke:#4a78c2
 ```
 
 ### **Divergence**
@@ -116,6 +185,10 @@ graph TD
 ```mermaid
 graph TD
     U1["000011"] --> U2["010111"] --> U3["110111"]
+
+    style U1 fill:#d9e8ff,stroke:#4a78c2
+    style U2 fill:#f3e6ff,stroke:#8e44ad
+    style U3 fill:#fde6f2,stroke:#c2185b
 ```
 
 ### **Spiral**
@@ -123,6 +196,11 @@ graph TD
 ```mermaid
 graph TD
     S1["101000"] --> S2["101100"] --> S3["001100"] --> S4["001000"]
+
+    style S1 fill:#ffe6cc,stroke:#d98c2c
+    style S2 fill:#fff2cc,stroke:#c2a23a
+    style S3 fill:#e8f4d9,stroke:#6aa84f
+    style S4 fill:#d9e8ff,stroke:#4a78c2
 ```
 
 ---
