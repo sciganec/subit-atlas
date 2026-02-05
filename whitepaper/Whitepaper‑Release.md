@@ -286,7 +286,4 @@ It provides a unified framework for modeling meaning, behavior, and transformati
 SUBIT‑64 is not a model — it is a **semantic operating system**.
 
 ---
- 
-- **Whitepaper‑PDF‑Edition.md** (з титульною сторінкою та TOC)
 
-Скажи, що робимо далі.
