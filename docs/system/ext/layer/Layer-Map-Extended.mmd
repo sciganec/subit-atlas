@@ -1,0 +1,91 @@
+graph TD
+
+%% ============================
+%% LAYER NODES (WITH COLORS)
+%% ============================
+
+subgraph LOWER["Lower Layers (Grounding)"]
+    L1["L1 Matter"]
+    L2["L2 Organic"]
+    L3["L3 Dynamics"]
+end
+
+subgraph MIDDLE["Middle Layers (Modulation)"]
+    L4["L4 Perception"]
+    L5["L5 Spectrum"]
+    L6["L6 Psychic"]
+end
+
+subgraph UPPER["Upper Layers (Expansion)"]
+    L7["L7 Social"]
+    L8["L8 Abstract"]
+end
+
+%% ============================
+%% UPWARD FLOW (BOTTOM → TOP)
+%% ============================
+
+L1 -->|upward| L2
+L2 -->|upward| L3
+L3 -->|upward| L4
+L4 -->|upward| L5
+L5 -->|upward| L6
+L6 -->|upward| L7
+L7 -->|upward| L8
+
+%% ============================
+%% DOWNWARD FLOW (TOP → BOTTOM)
+%% ============================
+
+L8 -->|downward| L7
+L7 -->|downward| L6
+L6 -->|downward| L5
+L5 -->|downward| L4
+L4 -->|downward| L3
+L3 -->|downward| L2
+L2 -->|downward| L1
+
+%% ============================
+%% RESONANCE LINKS (UNDIRECTED)
+%% ============================
+
+L3 ---|resonance| L7
+L5 ---|resonance| L8
+L2 ---|resonance| L6
+
+%% ============================
+%% MIDDLE LOOP (CYCLIC FLOW)
+%% ============================
+
+L3 --> L4
+L4 --> L5
+L5 --> L6
+L6 --> L3
+
+%% ============================
+%% STYLES
+%% ============================
+
+style L1 fill:#d9e8ff,stroke:#4a78c2,stroke-width:2px
+style L2 fill:#e8f4d9,stroke:#6aa84f,stroke-width:2px
+style L3 fill:#ffe6cc,stroke:#d98c2c,stroke-width:2px
+
+style L4 fill:#fff2cc,stroke:#c2a23a,stroke-width:2px
+style L5 fill:#f3e6ff,stroke:#8e44ad,stroke-width:2px
+style L6 fill:#fde6f2,stroke:#c2185b,stroke-width:2px
+
+style L7 fill:#e6f7ff,stroke:#1b7dbf,stroke-width:2px
+style L8 fill:#f0f0f0,stroke:#555555,stroke-width:2px
+
+%% ============================
+%% LEGEND
+%% ============================
+
+subgraph LEGEND["Legend"]
+    A1["→ Upward Flow (Expansion)"]
+    A2["→ Downward Flow (Grounding)"]
+    A3["--- Resonance Link"]
+    A4["↻ Middle-Layer Loop"]
+end
+
+style LEGEND fill:#fafafa,stroke:#999,stroke-width:1px
