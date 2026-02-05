@@ -3,7 +3,6 @@
 # **SUBIT‑64 Whitepaper (Release Edition)**  
 Version: 1.1  
 Status: Public Release  
-Author: Slavick  
 Document Type: Release Whitepaper
 
 ---
