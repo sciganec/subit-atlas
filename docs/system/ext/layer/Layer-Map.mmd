@@ -1,7 +1,6 @@
-```mermaid
 graph TD
 
-%% LAYER NODES
+%% LAYERS
 L1["L1 Matter"]
 L2["L2 Organic"]
 L3["L3 Dynamics"]
@@ -11,32 +10,31 @@ L6["L6 Psychic"]
 L7["L7 Social"]
 L8["L8 Abstract"]
 
-%% VERTICAL FLOW (BOTTOM → TOP)
-L1 -->|upward: grounding → adaptation| L2
-L2 -->|upward: regulation → motion| L3
-L3 -->|upward: motion → modulation| L4
-L4 -->|upward: signals → fields| L5
-L5 -->|upward: fields → inner tones| L6
-L6 -->|upward: inner tones → collective| L7
-L7 -->|upward: collective → concepts| L8
+%% UPWARD FLOW
+L1 --> L2
+L2 --> L3
+L3 --> L4
+L4 --> L5
+L5 --> L6
+L6 --> L7
+L7 --> L8
 
-%% VERTICAL FLOW (TOP → BOTTOM)
-L8 -->|downward: concepts → norms| L7
-L7 -->|downward: norms → affects| L6
-L6 -->|downward: affects → gradients| L5
-L5 -->|downward: gradients → sensations| L4
-L4 -->|downward: sensations → motion| L3
-L3 -->|downward: motion → regulation| L2
-L2 -->|downward: regulation → structure| L1
+%% DOWNWARD FLOW
+L8 --> L7
+L7 --> L6
+L6 --> L5
+L5 --> L4
+L4 --> L3
+L3 --> L2
+L2 --> L1
 
-%% RESONANCE PAIRS
-L3 ---|resonance: propagation| L7
-L5 ---|resonance: fields & abstraction| L8
-L2 ---|resonance: adaptation & inner modulation| L6
+%% RESONANCE LINKS
+L3 --- L7
+L5 --- L8
+L2 --- L6
 
 %% MIDDLE LOOP
-L3 -->|loop| L4
-L4 -->|loop| L5
-L5 -->|loop| L6
-L6 -->|loop| L3
-```
+L3 --> L4
+L4 --> L5
+L5 --> L6
+L6 --> L3
