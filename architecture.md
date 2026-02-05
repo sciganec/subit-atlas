@@ -243,5 +243,3 @@ SUBIT‑64 adheres to strict architectural principles:
 
 ---
 
-
-Скажи, який документ генеруємо наступним.
