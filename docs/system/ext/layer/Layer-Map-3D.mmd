@@ -1,0 +1,79 @@
+graph TD
+
+%% ============================
+%% 3D-STYLE LAYER STACK
+%% ============================
+
+%% BACK COLUMN (depth layer)
+A8["L8 Abstract"]
+A7["L7 Social"]
+A6["L6 Psychic"]
+A5["L5 Spectrum"]
+A4["L4 Perception"]
+A3["L3 Dynamics"]
+A2["L2 Organic"]
+A1["L1 Matter"]
+
+%% FRONT COLUMN (offset for 3D illusion)
+B8["L8 Abstract"]
+B7["L7 Social"]
+B6["L6 Psychic"]
+B5["L5 Spectrum"]
+B4["L4 Perception"]
+B3["L3 Dynamics"]
+B2["L2 Organic"]
+B1["L1 Matter"]
+
+%% ============================
+%% VERTICAL CONNECTIONS (BACK)
+%% ============================
+
+A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7 --> A8
+
+%% ============================
+%% VERTICAL CONNECTIONS (FRONT)
+%% ============================
+
+B1 --> B2 --> B3 --> B4 --> B5 --> B6 --> B7 --> B8
+
+%% ============================
+%% DIAGONAL LINKS (3D EFFECT)
+%% ============================
+
+A1 --- B2
+A2 --- B3
+A3 --- B4
+A4 --- B5
+A5 --- B6
+A6 --- B7
+A7 --- B8
+
+%% ============================
+%% RESONANCE LINKS (CROSS-PLANE)
+%% ============================
+
+A3 --- B7
+A5 --- B8
+A2 --- B6
+
+%% ============================
+%% STYLES
+%% ============================
+
+style A1 fill:#d9e8ff,stroke:#4a78c2,stroke-width:2px
+style A2 fill:#e8f4d9,stroke:#6aa84f,stroke-width:2px
+style A3 fill:#ffe6cc,stroke:#d98c2c,stroke-width:2px
+style A4 fill:#fff2cc,stroke:#c2a23a,stroke-width:2px
+style A5 fill:#f3e6ff,stroke:#8e44ad,stroke-width:2px
+style A6 fill:#fde6f2,stroke:#c2185b,stroke-width:2px
+style A7 fill:#e6f7ff,stroke:#1b7dbf,stroke-width:2px
+style A8 fill:#f0f0f0,stroke:#555555,stroke-width:2px
+
+style B1 fill:#d9e8ff,stroke:#4a78c2,stroke-width:2px
+style B2 fill:#e8f4d9,stroke:#6aa84f,stroke-width:2px
+style B3 fill:#ffe6cc,stroke:#d98c2c,stroke-width:2px
+style B4 fill:#fff2cc,stroke:#c2a23a,stroke-width:2px
+style B5 fill:#f3e6ff,stroke:#8e44ad,stroke-width:2px
+style B6 fill:#fde6f2,stroke:#c2185b,stroke-width:2px
+style B7 fill:#e6f7ff,stroke:#1b7dbf,stroke-width:2px
+style B8 fill:#f0f0f0,stroke:#555555,stroke-width:2px
